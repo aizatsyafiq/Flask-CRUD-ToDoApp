@@ -1,0 +1,78 @@
+//colour variables
+$primary-color: #F29F58;
+$primary-color-hover: #d08442;
+$success-color: #AB4459;
+$success-color-hover: #923a4b;
+$title-color: #1B1833;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h1{
+        color: $title-color;
+    }
+
+    h4{
+        color: $title-color;
+    }
+
+    table{
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+
+        th, td{
+            padding: 10px;
+            border: 1px solid #ddd;
+
+            th{
+                background-color: $primary-color-hover;
+                color: #1B1833;
+            }
+        }
+    }
+
+    a {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 5px 0;
+        border-radius: 20px;
+        background-color: $primary-color;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover{
+            background-color: $primary-color-hover;
+        }
+    }
+
+    input{
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+    #btn_add{
+        background-color: $success-color;
+        color: #fff;
+        cursor: pointer;
+        &:hover{
+            background-color: $success-color-hover;
+        }
+    }
+}

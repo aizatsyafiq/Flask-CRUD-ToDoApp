@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F29F58;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.content h1 {
+  color: #1B1833;
+}
+
+.content h4 {
+  color: #1B1833;
+}
+
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.content table th, .content table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.content table th th, .content table td th {
+  background-color: #d08442;
+  color: #1B1833;
+}
+
+.content a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px 0;
+  border-radius: 20px;
+  background-color: #F29F58;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.content a:hover {
+  background-color: #d08442;
+}
+
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.content #btn_add {
+  background-color: #AB4459;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content #btn_add:hover {
+  background-color: #923a4b;
+}
+/*# sourceMappingURL=styles.css.map */
